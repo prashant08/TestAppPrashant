@@ -54,19 +54,6 @@ namespace TestCommon.CommonUtility
         }
 
         /// <summary>
-        /// Method to send values for non empty fields.
-        /// </summary>
-        /// <param name="value"></param>
-        /// <param name="element"></param>
-        public static void SendKeysWhenNotNullOrEmpty(string value, IWebElement element)
-        {
-            if (!string.IsNullOrEmpty(value))
-            {
-                element.SendKeys(value);
-            }
-        }
-
-        /// <summary>
         /// If ajax available on Page, it Waits for AJAX calls to be Complete Load. 
         /// Also handles conditions : If Ajax call already loaded or not available on page.
         /// </summary>
