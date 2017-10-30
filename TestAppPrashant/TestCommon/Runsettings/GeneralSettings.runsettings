@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <!-- Parameters used by tests at runtime -->
+  <TestRunParameters>
+    <Parameter name="targetUrlDominos" value="https://www.dominos.com.au/menu" />
+	<Parameter name="targetUrlColorPicker" value="https://www.w3schools.com/colors/colors_picker.asp" />
+	<!-- browser: chrome, firefox, ie -->
+	 <Parameter name="targetbrowser" value="chrome" />
+  </TestRunParameters>
+</RunSettings>
